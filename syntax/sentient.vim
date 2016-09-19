@@ -18,7 +18,7 @@ syn keyword sntKeyword expose invariant return
 hi def link sntKeyword Keyword
 
 " Constants
-syn match sntNumber '-\?\d\+'
+syn match sntNumber '\<-\?\d\+'
 syn keyword sntBoolean true false
 hi def link sntNumber Number
 hi def link sntBoolean Boolean
