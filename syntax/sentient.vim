@@ -37,8 +37,8 @@ syn match sntBracket '}'
 hi def link sntBracket Function
 
 " Functions
-syn keyword sntFunction function nextgroup=sntFnDynamic
-syn match sntFnDynamic '\^\?' contained
+syn keyword sntFunction function
+syn match sntFnDynamic '\^'
 syn region sntBody start='{' end='}' fold transparent
 hi def link sntFunction Function
 hi def link sntFnDynamic SpecialChar
