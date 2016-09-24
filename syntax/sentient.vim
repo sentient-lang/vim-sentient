@@ -44,8 +44,7 @@ hi def link sntFunction Function
 hi def link sntFnDynamic SpecialChar
 
 " Pointers
-syn match sntMethodCall '\w[?!]\?(' nextgroup=sntPointer skipwhite
-syn match sntPointer '*\w\+[?!]\?' contained
+syn match sntPointer '*\w\+[?!]\?'
 hi def link sntPointer Function
 
 " Semicolons
